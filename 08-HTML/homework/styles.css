@@ -1,20 +1,64 @@
+body{
+    background-image: url('https://pm1.narvii.com/6486/5f7b13b63c293ae13aa78d9e2faf18c3e74e314b_hq.jpg');
+    
+}
+
 .divclass h1{
-    color: green
+        color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+.divClass h3{
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.divClass h4{
+        color:beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+.divClass #spanid{
+        font-size: 18px;
+        margin: 50px;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
+
+.divClass a{
+        font-size: 18px;
+        margin: 50px;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
 }
 
 #thirdDiv ul li img{
-    width: 400px;
+        width: 400px;
+           
 }
 
 #thirdDiv{
-    height: 600px;
-    width: 500px;
-    background-color: blueviolet;
-    padding: 50px;
-    border: 5px crimson;
-}
-
-.divClass #spanId{
-    font-size: 18px;
-    margin: 50px;
+        height: 600px;
+        width: 500px;
+        background-color: blueviolet;
+        padding: 50px;
+        border: 30px; 
+        color: #138;
+        border-width: 10px;
+        border-style:dashed;
+            
 }
