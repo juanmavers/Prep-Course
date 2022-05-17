@@ -1,6 +1,8 @@
 body{
-    background-image: url('https://pm1.narvii.com/6486/5f7b13b63c293ae13aa78d9e2faf18c3e74e314b_hq.jpg');
-    
+    background-image: url('https://scontent.faep9-3.fna.fbcdn.net/v/t1.6435-9/70287576_10157604207703112_7706447840549011456_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=730e14&_nc_ohc=1NWnPgmmBU0AX94YCEc&_nc_ht=scontent.faep9-3.fna&oh=00_AT_DEVY6Qg0rJWP1Wf42w-kuNHTvQhPnKcoR5bDP7ss7pg&oe=62AA73A5');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
 }
 
 .divclass h1{
@@ -46,19 +48,28 @@ body{
     
 }
 
-#thirdDiv ul li img{
-        width: 400px;
-           
-}
-
 #thirdDiv{
         height: 600px;
         width: 500px;
         background-color: blueviolet;
         padding: 50px;
-        border: 30px; 
-        border-color: #138;
-        border-width: 10px;
-        border-style:dashed;
+        margin: 50px;
+        border: dashed red;
+        margin: auto;
             
 }
+
+#thirdDiv ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform:uppercase;
+        
+}
+
+#thirdDiv ul li img{
+        height: 300px;
+        width: 300px;
+       
+}
+
