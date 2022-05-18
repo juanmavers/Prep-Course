@@ -1,0 +1,86 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?t=st=1652827271~exp=1652827871~hmac=0328bd96e4b003df802a778db3447d5e55fef1d83cfd31159d2ae8a511bfeb39&w=1800');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    margin-left: 30%;
+    margin-right: 30%;
+    border:double grey 30px;
+    padding: 40px;
+    
+}
+
+.infoPrincipal img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+.infoPrincipal h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana;
+    
+}
+
+.descPersonal{
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI";
+    align-items: center;
+        
+}
+
+.educacion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.expLaboral{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hobbies{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hobbies ul img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+.henry h2{
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI";
+    align-items: center;
+    border: dotted red;
+    padding: 5px;
+    margin: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.henry p{
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI";
+    align-items: center;
+    text-align: center;
+    border: groove darkcyan;
+    padding: 10px;
+    margin: 30spx;
+    
+}
