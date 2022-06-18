@@ -219,15 +219,20 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   let array = [];
-  for (i = 1; i <= 10; i++) {
-    array.push(numero + 2*i);
-    if (i === numero + 2*i) {
+  let suma = numero;
+  for (i = 0; i < 10; i++) {
+    suma = suma + 2;
+    if (suma === i) {
       break;
     }
-    return array;
+    else {
+      array.push(suma);
+    }
   }
-  return "Se interrumpió la ejecución";
-
+  if (array.length < 10) {
+    return "Se interrumpió la ejecución"
+  } 
+  return array;
 }
 
 
@@ -239,10 +244,14 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   let array = [];
-  for (i=1; i <= 10; i++) {
-    array.push(numero + 2*i);
-    if (i === 5) {
+  suma = numero;
+  for (i = 0; i < 10; i++) {
+    if (i == 5) {
       continue;
+    }
+    else {
+      suma = suma+2;
+      array.push(suma);
     }
   }
   return array;
